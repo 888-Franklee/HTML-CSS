@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-align 練習</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-justify {
+            text-align: justify;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .left-btn {
+            text-align: left;
+        }
+
+        .center-btn {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .right-btn {
+            margin-left: auto;
+            text-align: right;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: lightblue;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center">中央揃えの見出し</h1>
+    <p class="text-justify">
+        この文章は両端揃えです。文章の幅が均等になるように調整されます。
+        このような配置は新聞や雑誌のような文章レイアウトに適しています。
+    </p>
+    <div class="button-container">
+        <button class="left-btn">左</button>
+        <button class="center-btn">中央</button>
+        <button class="right-btn">右</button>
+    </div>
+</body>
+</html>
