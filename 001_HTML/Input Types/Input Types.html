@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Input Types</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      padding: 40px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 15px;
+    }
+
+    .row span {
+      width: 220px;
+      font-family: monospace;
+      color: #555;
+      background-color: #f0f0f0;
+      padding: 6px 10px;
+      border-radius: 6px;
+      margin-right: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    input[type="url"],
+    input[type="tel"],
+    input[type="search"],
+    input[type="date"],
+    input[type="time"],
+    input[type="month"],
+    input[type="week"] {
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 220px;
+    }
+
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 6px 14px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    input[type="button"]:hover,
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"],
+    input[type="color"],
+    input[type="range"] {
+      margin-right: 10px;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <h2>HTML INPUT TYPES</h2>
+
+  <div class="row"><span>&lt;input type="text"&gt;</span><input type="text" placeholder="username"></div>
+  <div class="row"><span>&lt;input type="file"&gt;</span><input type="file"></div>
+  <div class="row"><span>&lt;input type="button"&gt;</span><input type="button" value="Button"></div>
+  <div class="row"><span>&lt;input type="checkbox"&gt;</span>
+    <label>
+      <input type="checkbox">Car
+      <input type="checkbox">Bus
+    </label>
+  </div>
+  <div class="row"><span>&lt;input type="color"&gt;</span><input type="color"></div>
+  <div class="row"><span>&lt;input type="date"&gt;</span><input type="date" value="2022-02-14"></div>
+  <div class="row"><span>&lt;input type="email"&gt;</span><input type="email" value="user@gmail.com"></div>
+  <div class="row"><span>&lt;input type="password"&gt;</span><input type="password" value="********"></div>
+  <div class="row"><span>&lt;input type="month"&gt;</span><input type="month" value="2022-07"></div>
+  <div class="row"><span>&lt;input type="number"&gt;</span><input type="number" value="50"></div>
+  <div class="row"><span>&lt;input type="url"&gt;</span><input type="url" value="https://www.google.com"></div>
+  <div class="row"><span>&lt;input type="radio"&gt;</span>
+    <label>
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+    </label>
+  </div>
+  <div class="row"><span>&lt;input type="range"&gt;</span><input type="range"></div>
+  <div class="row"><span>&lt;input type="reset"&gt;</span><input type="reset" value="Reset"></div>
+  <div class="row"><span>&lt;input type="search"&gt;</span><input type="search" placeholder="Search"></div>
+  <div class="row"><span>&lt;input type="submit"&gt;</span><input type="submit" value="Submit"></div>
+  <div class="row"><span>&lt;input type="tel"&gt;</span><input type="tel" value="123-45-678"></div>
+  <div class="row"><span>&lt;input type="time"&gt;</span><input type="time" value="16:37"></div>
+  <div class="row"><span>&lt;input type="week"&gt;</span><input type="week" value="2023-W13"></div>
+
+</body>
+</html>
