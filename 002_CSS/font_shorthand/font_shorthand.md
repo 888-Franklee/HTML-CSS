@@ -4,7 +4,7 @@ CSSの `font` プロパティは、複数のフォント関連のプロパティ
 
 ---
 
-## 1 書式（構文）：
+## 1. 書式（構文）：
 
 ```css
 font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];
@@ -14,7 +14,7 @@ font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-
 
 ---
 
-## 2 各プロパティの意味：
+## 2. 各プロパティの意味：
 
 | 項目 | 説明 |
 |------|------|
@@ -27,7 +27,7 @@ font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-
 
 ---
 
-## 3 例：
+## 3. 例：
 
 ```css
 font: italic small-caps bold 16px/1.5 "Times New Roman", serif;
@@ -46,7 +46,7 @@ font: italic small-caps bold 16px/1.5 "Times New Roman", serif;
 
 ---
 
-## ■ 注意点：
+## 4. 注意点：
 
 - `font-size` と `font-family` は**省略できません**。
 - 省略した値は、ブラウザの初期値が使われます。
