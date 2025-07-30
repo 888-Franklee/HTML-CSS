@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>text-align 練習</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .box {
+      border: 1px solid #aaa;
+      margin: 20px 0;
+      padding: 10px;
+      width: 80%;
+      background-color: #f9f9f9;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .justify {
+      text-align: justify;
+    }
+
+    .start {
+      direction: ltr;
+      text-align: start;
+    }
+
+    .end {
+      direction: rtl;
+      text-align: end;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>text-align 総合練習</h2>
+
+  <div class="box left">
+    <strong>左揃え:</strong><br>
+    これは左に揃えられた段落です。すべてのテキストは左端から開始されます。
+  </div>
+
+  <div class="box center">
+    <strong>中央揃え:</strong><br>
+    このテキストは中央に配置されています。見出しやタイトルなどによく使われます。
+  </div>
+
+  <div class="box right">
+    <strong>右揃え:</strong><br>
+    テキストが右側に揃えられています。右から読む言語や、特定の装飾的目的に使われます。
+  </div>
+
+  <div class="box justify">
+    <strong>両端揃え（justify）:</strong><br>
+    この段落は両端揃えで表示されています。各行のテキストが左右の端に揃うように調整され、読みやすさを高めます。
+  </div>
+
+  <div class="box start">
+    <strong>start 揃え（LTR）:</strong><br>
+    書字方向が左から右（LTR）の場合、「start」は左揃えと同じになります。
+  </div>
+
+  <div class="box end">
+    <strong>end 揃え（RTL）:</strong><br>
+    書字方向が右から左（RTL）の場合、「end」は右揃えと同じになります。
+  </div>
+
+</body>
+</html>

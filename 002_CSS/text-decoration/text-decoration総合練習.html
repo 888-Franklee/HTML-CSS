@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>text-decoration 練習</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .overline {
+      text-decoration: overline;
+    }
+
+    .line-through {
+      text-decoration: line-through;
+    }
+
+    .multiple {
+      text-decoration-line: underline overline;
+      text-decoration-style: double;
+      text-decoration-color: red;
+    }
+
+    .shortcut {
+      text-decoration: underline wavy green;
+    }
+
+    .no-decoration {
+      text-decoration: none;
+    }
+
+    a.no-underline {
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h2>text-decoration 総合練習</h2>
+
+  <p class="underline">これは下線が引かれたテキストです。</p>
+
+  <p class="overline">これは上線が引かれたテキストです。</p>
+
+  <p class="line-through">これは取り消し線があるテキストです。</p>
+
+  <p class="multiple">これは上下に線があり、スタイルは double、色は赤です。</p>
+
+  <p class="shortcut">これは波線で下線があり、色は緑です。</p>
+
+  <p class="no-decoration">これは装飾のないテキストです。</p>
+
+  <p><a href="#" class="no-underline">リンクの下線をなくした例</a></p>
+</body>
+</html>
