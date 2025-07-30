@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS margin 練習</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: sans-serif;
+    }
+
+    .container {
+      width: 600px;
+      margin: 50px auto; /* 上下50px、左右中央寄せ */
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #4CAF50;
+      color: white;
+      display: inline-block;
+      text-align: center;
+      line-height: 100px;
+      margin: 10px;
+    }
+
+    .box2 {
+      background-color: #2196F3;
+      margin-left: 50px; /* 左に余白 */
+    }
+
+    .box3 {
+      background-color: #FF9800;
+      margin-top: 30px; /* 上に余白 */
+    }
+
+    .center-box {
+      width: 200px;
+      height: 50px;
+      background-color: #9C27B0;
+      margin: 40px auto; /* 上下40px、左右中央 */
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>marginの基本練習</h2>
+
+    <div class="box">Box1</div>
+    <div class="box box2">Box2</div>
+    <div class="box box3">Box3</div>
+
+    <div class="center-box">中央寄せBox</div>
+  </div>
+</body>
+</html>
